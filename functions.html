@@ -1,0 +1,32 @@
+<html>
+<header>
+    <title></title>
+<script>
+    "use strict";
+
+    function showMessage(from, text) { // аргументы: from, text
+        alert(from + ': ' + text);
+    }
+    showMessage('Аня', 'Привет!'); // Аня: Привет! (*)
+    showMessage('Аня', "Как дела?"); // Аня: Как дела? (**)
+
+   //===================================================================================================================
+
+
+    let from = 'Peter';
+    let text = 'hello!'
+
+    function showMessage1(from, text) { // аргументы: from, text
+        alert(from + ': ' + text);
+    }
+    showMessage(from, text);
+
+
+
+
+
+</script>
+</header>
+<body>
+</body>
+</html>
