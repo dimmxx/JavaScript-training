@@ -12,18 +12,19 @@
 
    //===================================================================================================================
 
-
     let from = 'Peter';
     let text = 'hello!'
-
     function showMessage1(from, text) { // аргументы: from, text
         alert(from + ': ' + text);
     }
-    showMessage(from, text);
+    showMessage1(from, text);
 
+    //===================================================================================================================
 
-
-
+    function showMessage2(from, text) { // аргументы: from, text
+        alert(from + ': ' + text);
+    }
+    showMessage2('John'); //undefined
 
 </script>
 </header>
