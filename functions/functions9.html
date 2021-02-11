@@ -1,0 +1,29 @@
+<html>
+<header>
+    <title></title>
+    <script>
+        "use strict";
+
+        function ask(question, yes, no) {
+            if (confirm(question)) yes()
+            else no();
+        }
+
+        function showOk() {
+            alert( "Agree" );
+        }
+
+        function showCancel() {
+            alert("Canceled");
+        }
+
+        ask("Do you agree?", showOk, showCancel);
+
+
+
+
+    </script>
+</header>
+<body>
+</body>
+</html>
